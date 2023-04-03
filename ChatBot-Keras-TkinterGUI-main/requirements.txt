@@ -1,0 +1,5 @@
+keras_nightly==2.11.0.dev2022092207
+tensorflow==2.8.4
+numpy==1.19.5
+nltk==3.6.7
+keras==2.4.3

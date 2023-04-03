@@ -1,0 +1,148 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi there",
+            "How are you?",
+            "Is anyone there?",
+            "Hey",
+            "Hola",
+            "Hello"
+         ],
+         "responses":[
+            "Hi there am njoki a chatBot created by vivian, how can I help?"
+
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time",
+            "Ciao"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon.",
+            "Ciao"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am a personal assistant of Balaji Srinivasan and I am a Python fan",
+            "I am a Python fanboy and a subscriber of Balaji Srinivasan's YouTube channel"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"python_is_best",
+         "patterns":[
+            "Which is the best programming language?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "Is Python language an awesome language?",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"joke",
+         "patterns":[
+            "tell me a joke",
+            "can you tell me a joke",
+            "make some fun",
+            "make me laugh and do some funny joke",
+            "tell me a joke"
+         ],
+         "responses":[
+            "How do functions break up? \n They stop calling each other."
+         ],
+         "context":[
+            ""
+         ]
+      },
+        {
+      "tag": "race_car",
+      "patterns": [
+        "Do I need a driving license?",
+        "From what age I can drive?",
+        "From what age a kid can be in the seat?",
+        "How many laps I can do?",
+        "Can I take my partner with me on the Ferrari ?",
+        "Do I have to book before or just show up?",
+        "Do you have special days that you run?"
+      ],
+      "responses": [
+        "To drive on the race track , Yes...for courses like drift and kids activities no need.",
+        "Any age as long as you reach the pedals (140cm), to drive on the race track we only ask for driving license which mean in the US is 16, other countries 17 and in Europe 18.",
+        "As passengers from 3 year old, as drivers from 10/11 depend on their height (140cm min)",
+        "As many as you want, consider 10 laps max in each session ( we have 8/10 sessions a day)",
+        "No, there are only 2 seats in the Ferrari for the driver and instructor. If your partner can not drive we can take them for a fast lap.",
+        "You must do the booking and payment from the product page BEFORE coming to the race track. we can not accept credit cards on site. Cars must be prepared for you so we need to know you are coming.",
+        "In Milan , we run almost every day from 09.00 till 16.00 in the summer also till 19.00. Best days to arrive are: Sunday, Monday, Thursday and Friday. We do not run on Saturday. "
+      ],
+      "context":[
+            ""
+         ]
+    }
+   ]
+}
